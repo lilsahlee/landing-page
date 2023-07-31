@@ -1,13 +1,21 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .head {
     display: flex;
     justify-content: space-around;
-    background-color: #1f2937
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    margin:auto
 }
 
 .awesome {
     background-color: #1f2937;
     color: azure;
     display: flex;
+    padding: 20px;
 }
 
 .info {
@@ -21,4 +29,41 @@
 
 .call {
     display: flex;
+}
+
+.links {
+    display: flex;
+    color: #e5e7eb;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.big {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 40px;
+
+}
+
+.sub {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 10px;
+    
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+}
+
+img {
+    width: 45%;
+}
+
+.right {
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
