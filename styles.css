@@ -1,5 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
 }
 
 .head {
@@ -7,6 +8,7 @@ body {
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
+    padding: 10px;
 }
 
 .awesome {
@@ -19,21 +21,6 @@ body {
 .info {
     display: flex;
     flex-direction: column;
-}
-
-.thought {
-    display: flex;
-    background-color: #e5e7eb;
-    flex-direction: column;
-}
-
-.quote {
-    font-style: italic;
-}
-
-.quoted {
-    display: flex;
-    margin-left: auto;
 }
 
 .links {
@@ -99,11 +86,27 @@ body {
     text-align: center;
 }
 
+.thought {
+    background-color: #e5e7eb;
+    padding: 70px 160px;
+}
+
+.quote {
+    font-style: italic;
+    
+
+}
+
+.quoted {
+    font-weight: bolder;
+    margin-left: 500px;
+}
+
 .callbox {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 200px;
     background-color: white;
 }
 
@@ -112,13 +115,26 @@ body {
     background-color: #3882f6;
     height: 80px;
     width: 80%;
+    border-radius: 8px;
+    margin: 100px 0 100px 0;
+    justify-content: space-around;
+    align-items: center;
+    color: #e5e7eb;
 }
 
 .buttman {
     display: flex;
     flex-direction: column;
+    
 }
 
 .two {
    height: 20px;
+   border-color: #f9faf8;
 }
+
+.action {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
