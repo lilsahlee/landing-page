@@ -4,11 +4,9 @@ body {
 
 .head {
     display: flex;
-    justify-content: space-around;
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
-    margin:auto
 }
 
 .awesome {
@@ -20,15 +18,22 @@ body {
 
 .info {
     display: flex;
+    flex-direction: column;
+}
+
+.thought {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
 }
 
 .quote {
-    display: flex;
-    background-color: #e5e7eb;
+    font-style: italic;
 }
 
-.call {
+.quoted {
     display: flex;
+    margin-left: auto;
 }
 
 .links {
@@ -36,6 +41,7 @@ body {
     color: #e5e7eb;
     gap: 10px;
     font-size: 18px;
+    margin-left: auto;
 }
 
 .big {
@@ -48,17 +54,17 @@ body {
 .sub {
     font-size: 18px;
     color: #e5e7eb;
-    padding: 10px;
+    padding-bottom: 10px;
     
 }
 
-button {
+.one, .two{
     background-color: #3882f6;
     border-radius: 8px;
     color: white;
 }
 
-img {
+.planet {
     width: 45%;
 }
 
@@ -66,4 +72,53 @@ img {
     display: flex;
     margin: auto;
     justify-content: center;
+}
+
+.random {
+    font-weight: bolder;
+    align-self: center;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.lilplan {
+    width: 65%;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.callbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+}
+
+.call {
+    display: flex;
+    background-color: #3882f6;
+    height: 80px;
+    width: 80%;
+}
+
+.buttman {
+    display: flex;
+    flex-direction: column;
+}
+
+.two {
+   height: 20px;
 }
