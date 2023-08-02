@@ -16,6 +16,7 @@ body {
     color: azure;
     display: flex;
     padding: 20px;
+    padding-bottom: 40px;
 }
 
 .info {
@@ -35,13 +36,13 @@ body {
     font-size: 48px;
     font-weight: bolder;
     margin-top: 40px;
-
+    padding-bottom: 15px;
 }
 
 .sub {
     font-size: 18px;
     color: #e5e7eb;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     
 }
 
@@ -61,13 +62,6 @@ body {
     justify-content: center;
 }
 
-.random {
-    font-weight: bolder;
-    align-self: center;
-    color: #1f2937;
-    font-size: 36px;
-}
-
 .lilplan {
     width: 65%;
 }
@@ -75,7 +69,15 @@ body {
 .images {
     display: flex;
     flex-direction: row;
-    
+    padding: 30px 0px 50px 0px;
+}
+
+.random {
+    font-weight: bolder;
+    align-self: center;
+    color: #1f2937;
+    font-size: 36px;
+    padding-top: 30px;
 }
 
 .image {
@@ -84,6 +86,15 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-bottom: 20px;
+}
+ .text {
+    padding-top: 10px;
+ }
+
+.thefour {
+    max-width: 150px;
+    padding-top: 20px;
 }
 
 .thought {
